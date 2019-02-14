@@ -53,7 +53,7 @@ public class employee {
 
     public void calculateSalary()
     {
-        double sal = getRate() * 20;
+        double sal = getRate() * 100;
 
         System.out.println("Name: " + getName() + "\nEmployee Number: " + getEmpNum() + " \nYour salary is R" + sal);
     }
